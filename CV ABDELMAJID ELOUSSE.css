@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    background: whitesmoke;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.navbar .ABDELMAJIDELOUSSE{
+	width: 140px;
+	height: auto;
+	padding: 20px 50px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 400px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 13px;
+    transition: .4s;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+	background: black;
+	border-radius: 2px;
+}
+.title {
+   margin: 20px;
+   position: relative;
+   top: -2100px;
+}
+.title .me{
+	width: 140px;
+	height: auto;
+    padding: 80px 25px;
+    position: relative; 
+    top: 55px;
+}
+.info {
+    margin: 20px;
+    position: relative;
+    bottom: 2100px;
+}
+.navbar1{
+    height: 120px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.copy{
+    position: relative;
+    text-align: center;
+}
+.Aboutme h1 {
+    color: goldenrod;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 500px;
+}
+.Aboutme p{
+    position: relative;
+    text-align: center;
+    bottom: 480px;
+    font-size: 20px;
+	font-weight: bold;
+    width: 850px;
+    padding: 0px 250px;
+}
+.Skills h2{
+    color: goldenrod;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 500px;
+}
+.Skills p{
+    position: relative;
+    text-align: center;
+    bottom: 480px;
+    font-size: 20px;
+	font-weight: bold;
+    width: 850px;
+    padding: 0px 210px;
+}
+.Skills li{
+    position: relative;
+    text-align: center;
+    bottom: 480px;
+    font-size: 20px;
+	font-weight: bold;
+    width: 850px;
+    padding: 0px 210px;
+}
+.cv h3{
+    color: goldenrod;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 500px;
+}
+.cv h4{
+    color: skyblue;
+    position: relative;
+    text-align: center;
+    bottom: 480px;
+    font-size: 20px;
+	font-weight: bold;
+    width: 850px;
+    padding: 0px 210px;
+}
+.cv p{
+    position: relative;
+    text-align: center;
+    bottom: 480px;
+    font-size: 20px;
+	font-weight: bold;
+    width: 850px;
+    padding: 0px 210px;
+}
+.contact h5{
+    color: goldenrod;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 500px;
+}
+.contact p{
+    position: relative;
+    text-align: center;
+    bottom: 480px;
+    font-size: 20px;
+	font-weight: bold;
+    width: 850px;
+    padding: 0px 210px;
+}
